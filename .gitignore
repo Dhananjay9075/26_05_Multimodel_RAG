@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# ML / AI Model Files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+
+# Data Files
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Cache
+.cache/
