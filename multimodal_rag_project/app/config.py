@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     
     # API Credentials
     GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "mock-groq-key")
-    PINECONE_API_KEY: str = os.getenv("PINECONE_API_KEY", "pcsk_33Qpey_AiBZjJC5D7UuA9GoqzMY822GxSNfBh9zPsGg1MHWQ94wJo7C1MV5vCGigF8hyGT")
+    PINECONE_API_KEY: str = os.getenv("PINECONE_API_KEY", "x")
     PINECONE_ENVIRONMENT: str = os.getenv("PINECONE_ENVIRONMENT", "us-east-1")
     PINECONE_INDEX_NAME: str = os.getenv("PINECONE_INDEX_NAME", "multimodal-rag")
     TAVILY_API_KEY: str = os.getenv("TAVILY_API_KEY", "mock-tavily-key")
